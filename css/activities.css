@@ -1,0 +1,368 @@
+/* Styles for page */ 
+
+
+
+/* LINKS and BUTTONS **********************/
+
+
+.click_here{
+  color:#f4543c;
+}
+
+
+.click_here:hover{
+  color:rgba(45,126,144, 1);
+}
+
+.money{
+  font-size:18px;
+}
+
+
+
+/* Custom Activities Style **************/
+
+
+
+h2{
+	 text-shadow: 1px 3px 15px black;
+   font-size:48px;
+}
+
+	.cathedral{
+	width:100%;
+	margin-top:5em;
+	padding-top:2em;
+	padding-bottom:2em;
+	background-image: url('../images/cathedral.jpg');
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-position: bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-filter: blur (30px);
+  margin-bottom:2em;
+}
+
+h4{
+	text-shadow:none;
+	text-align:center;
+  font-size:24px;
+}
+
+p{
+	text-shadow:none;
+}
+
+.special_event{
+	width:100%;
+	background-color: rgba(90,90,90, .78);
+	margin-top:1em;
+	padding-bottom:1em;
+	color:white;
+	text-shadow: 1px 1px 50px black;
+	font-size:18px;
+  visibility:hidden;
+}
+
+.sep_floral{
+	padding:0px;
+}
+
+.brief_hist{
+	 color:#1b5a68;
+	margin-top:1em;
+	text-align: justify;
+
+}
+
+h4{
+  color:rgba(45,126,144, 1);
+	text-shadow:none;
+	text-align:center;
+ 
+}
+
+
+.special_events_1{
+	margin-top:6em;
+	color:rgba(45,126,144, 1);
+}
+
+.special_events_2{
+	margin-top:2.5em;
+	color:rgba(45,126,144, 1);
+	margin-bottom:3em;
+}
+
+
+h4.special_events{
+	margin-bottom:15px;
+}
+
+.sep_long{
+  max-width:100%;
+ margin-left:40px;
+
+  }
+
+.booth{
+  font-size:60px;
+  color:rgba(45,126,144, 1);
+  text-shadow:none;
+  margin-top:2.5em;
+}
+
+ .milestone{
+ font-family: Mark My Words;
+  font-size:60px;
+  margin-top:0px;
+  margin-bottom:.5em;
+ }
+
+
+ .food{
+	width:100%;
+	margin-top:7em;
+	padding-top:6em;
+	padding-bottom:6em;
+	background-image: url('../images/tearoom.png');
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-position: bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-filter: blur (30px);
+  margin-bottom:2em;
+}
+
+ .booth_slider{
+	width:100%;
+	margin-top:6em;
+	padding-top:5em;
+	padding-bottom:6em;
+	background-image: url('../images/o.png');
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-position: bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-filter: blur (30px);
+  margin-bottom:2em;
+}
+
+.fun_slider{
+	width:100%;
+	margin-top:6em;
+	padding-top:5em;
+	padding-bottom:6em;
+	background-image: url('../images/carousel.jpg');
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-position: bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-filter: blur (30px);
+  margin-bottom:2em;
+}
+
+.fun_slider .toggle{
+	margin-bottom:3em;
+}
+
+.final{
+	margin-bottom:5em;
+}
+
+.before_footer{
+	margin-bottom:5em;
+}
+
+
+.sign_up_booth{
+	color:#f4543c;
+}
+
+.brief_ent2{
+ color:rgba(45,126,144, 1);
+ margin-top:1em;
+ text-align:justify;
+}
+/** colors *** /
+
+text blue: rgba(45,126,144, .7)
+
+
+
+
+
+
+/* TOGGLE ACTIVITES **********************************************/
+
+.toggle_container{ width: 70%; margin:150px auto;
+  margin-top:50px;
+}
+
+  a{ cursor:pointer; 
+  color: rgba(45,126,144, 1);
+  text-decoration:none;
+  }
+
+.toggle_container section{
+  margin-bottom:10px;
+
+}
+    span{ letter-spacing:0px;}
+.toggle-inner p{font-weight:200;
+color:#1b5a68;
+line-height:1.5;
+font-size:16px;}
+
+
+/* Styles for Accordion */ 
+
+.toggle{
+ border-bottom: 1.5px solid lightgrey;
+ margin-top:1em;
+        }
+
+  
+.toggle-title {
+position: relative;
+display: block;
+border-top: 1px solid $lightgrey;
+margin-bottom: 6px;
+}
+    
+
+.toggle-title h3 {
+  color: rgba(45,126,144, 1);
+font-size: 30px;
+margin: 0px;
+margin-left:2em;
+line-height: 1;
+cursor: pointer;
+font-weight:200;
+
+}
+
+.toggle-inner {
+padding: 7px 25px 10px 25px;
+display: none;
+margin: -7px 0 6px;
+
+}
+.toggle-title {
+display: block;
+padding: 25px 25px 14px;
+}
+a i {
+font-size: 22px;
+margin-right: 5px;
+}
+.toggle i {
+position: absolute;
+background: url('http://arielbeninca.com/Storage/plus_minus.png') 0px -24px no-repeat;
+width: 24px;
+height: 24px;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: all 0.3s ease;
+margin: 20px;
+margin-right:2em;
+right: 0;
+}
+.active i {
+background: url('http://arielbeninca.com/Storage/plus_minus.png') 0px 0px no-repeat;
+margin-right:2em;
+}
+
+
+}
+
+
+
+
+/* MEDIA QUERY ***********************************************/
+
+/* Devices larger then 550px */
+  @media only screen and (min-width: 550px)   {
+    
+    .nav-wrapper{
+      width:960px;
+    }
+
+
+h1{
+  font-size:60px;
+}
+
+h2{
+  font-size:48px;
+}
+
+h4{
+  font-size:36px;
+}
+.brief_hist_first{
+  font-size:36px;
+  line-height:25px;
+}
+
+
+.milestone{
+  font-size:36px;
+}
+
+}
+
+  /* Devices larger then 960px */
+  @media only screen and (min-width: 960px)   {
+    .nav-wrapper{
+      width:100%;
+    }
+    
+    h1{
+      font-size:72px;
+    }
+ 
+
+h1{
+  font-size:72px;
+}
+
+h2{
+  font-size:72px;
+}
+
+h4{
+  font-size:30px;
+}
+
+
+
+.brief_hist_first{
+  font-size:36px;
+  line-height:16px;
+}
+
+
+.milestone{
+  font-size:48px;
+}
+
+p{
+  font-size:16px;
+}
+    
+    }

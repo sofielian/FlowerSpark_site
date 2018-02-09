@@ -1,0 +1,172 @@
+<style>
+
+
+body {margin:0;}
+
+
+.topnav{
+    margin-top:1em;
+
+  left:200px;
+}
+
+
+.nav_background-color{
+
+  overflow:hidden;
+ -webkit-box-shadow: 0px 4px 20px -8px rgba(125,125,125,1);
+  -moz-box-shadow: 0px 4px 20px -8px rgba(125,125,125,1);
+  box-shadow: 0px 4px 20px -8px rgba(125,125,125,1);
+  background-color: rgba(45, 126, 144, 0.85);
+
+}
+
+ul.topnav li a {
+    margin-left:2em;
+  margin-top:1em;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav {
+
+  width:100%;
+margin-top:0em;
+position:fixed;
+margin-top:0em;
+  list-style-type: none;
+  margin-left: 2em;
+  padding: 0;
+
+
+}
+ul.topnav li {
+  margin-top:0em;
+  display:inline-block;
+  margin-right:2em;
+  margin-left:2.6em;
+}
+
+.empty_li{
+  margin-left:5em;
+  position:absolute;
+}
+
+ul.topnav li a:hover {color:#f4543c;}
+  
+ul.topnav li.icon {
+  display: none;
+
+}
+
+@media screen and (max-width:1080px) {
+
+
+  ul.topnav li:not(:first-child) {display: none;
+    overflow:hidden;}
+
+  ul.topnav li.icon {
+
+    float: right;
+    display:block;
+  }
+
+  .hist_topnav{
+  visibility:show;
+}
+
+ul.topnav {
+  width:50%;
+margin-top:0em;
+position:fixed;
+margin-top:0em;
+  list-style-type: none;
+  margin-left: 2em;
+  padding: 0;
+  background-color: rgba(45, 126, 144, 0.85);
+
+}
+}
+
+@media screen and (max-width:580px) {
+
+   .hist_topnav{
+  visibility:show;
+}
+
+  ul.topnav.responsive li.icon {
+     margin-top:0em;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: center;
+
+  }
+
+  .nav_li{
+    position:relative;
+    margin-left:50px;
+    text-align:center;
+  }
+
+  .icon{
+    margin-left:0px;
+  }
+
+
+  ul.topnav {
+  width:50%;
+margin-top:0em;
+position:fixed;
+margin-top:0em;
+  list-style-type: none;
+  margin-left: 2em;
+  padding: 0;
+  background-color: rgba(45, 126, 144, 0.85);
+
+}
+}
+
+
+@media screen and (max-width:1080px) {
+
+  ul.topnav.responsive li.icon {
+     margin-top:0em;
+    float:right;
+    top: 0;
+
+  }
+  ul.topnav.responsive .nav_li {
+    float: left;
+    display: inline-block;
+  }
+  ul.topnav.responsive li a {
+    display:block;
+    text-align: center;
+    margin-right
+  }
+ul.topnav {
+  width:50%;
+margin-top:0em;
+position:fixed;
+margin-top:0em;
+  list-style-type: none;
+  margin-left: 2em;
+  padding: 0;
+  background-color: rgba(45, 126, 144, 0.85);
+ text-align:left;
+
+}
+
+}
+</style>
